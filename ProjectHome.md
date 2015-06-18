@@ -1,0 +1,23 @@
+# About Importer for SVN #
+This tool enables fast, safe importing/migrating of repository content from other version control systems into a Subversion (SVN) repository. Importer for SVN can also be used for periodic repository synchronization.
+
+# Supported Systems #
+  * CVS
+  * PVCS
+  * VSS
+  * ClearCase
+  * MKS
+  * StarTeam
+
+# Additional Features #
+  * Logging (output to console, logging level) can be tuned in configuration file (using log4j configuration)
+  * Provider can work with remote repositories via CVS 'pserver' protocol
+  * Non-critical errors resolve automatically
+
+# Requirements #
+  * Java™ runtime (JRE) or SDK 1.4
+  * An external tool, a part of source repository distribution, to access the source repository (for PVCS, VSS, ClearCase and VSS)
+
+# For More Information #
+  * Visit [polarion.com](http://www.polarion.com/products/svn/svn_importer.php)
+  * Email [info@polarion.com](mailto:info@polarion.com)
